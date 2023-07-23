@@ -487,9 +487,8 @@ def show_user_manual(y):
     ["INSTRUCTIONS", y, 60, WHITE],
     ["left click: shoot", y+120, 30, WHITE],
     ["[zqsd]: move", y+160, 30, WHITE],
-    ["[e]: switch weapons", y+200, 30, WHITE],
-    ["[space]: use boost", y+240, 30, WHITE],
-    ["[f]: throw bomb", y+280, 30, WHITE],
+    ["[space]: boost", y+200, 30, WHITE],
+    ["[f]: bomb", y+240, 30, WHITE],
     ["click to continue.", y+400, 30, BLUE],
         ]
     msg1(display_text, 20)
